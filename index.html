@@ -1,22 +1,193 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Identity hub</title>
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="./script.js" defer></script>
+  </head>
 
-<link rel="stylesheet" href="/css/hero.css">
-<link rel="stylesheet" href="/css/services.css">
-<link rel="stylesheet" href="/css/pricing.css">
-<link rel="stylesheet" href="/css/user-review.css">
-<link rel="stylesheet" href="/css/why-choose.css">
-<link rel="stylesheet" href="/css/be-part.css">
+  <body>
+    <!-- navbar section -->
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar--container">
+            <!-- brand -->
+            <div class="navbar--brand">
+              <img src="./assets/logo.svg" alt="" class="navbar--logo" />
+            </div>
 
-<title>IdentityHub</title>
-</head>
-<body>
-    
-</body>
+            <!-- Menu -->
+            <ul class="navbar--menu" id="navbarMenu">
+              <li class="navbar--menu-item">
+                <a href="#" class="navbar--menu-link">Services</a>
+              </li>
+              <li class="navbar--menu-item">
+                <a href="#" class="navbar--menu-link">Features</a>
+              </li>
+              <li class="navbar--menu-item">
+                <a href="#" class="navbar--menu-link">Pricing</a>
+              </li>
+              <li class="navbar--menu-item">
+                <a href="#" class="navbar--menu-link">Partners</a>
+              </li>
+              <li class="navbar--menu-item">
+                <a href="#" class="navbar--menu-link">About us</a>
+              </li>
+              <div class="navbar--actions">
+                <button class="premium-btn gap-4 w-155">
+                  Start free trial
+                  <img
+                    class="arrow-right"
+                    src="./assets/arrow-right-icon.svg"
+                    alt=""
+                  />
+                </button>
+              </div>
+            </ul>
+
+            <!-- hamburger -->
+            <button
+              class="navbar--toggle"
+              id="navbarToggle"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+              aria-controls="navbarMenu"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <!-- nav action btn -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero--overlay space-container">
+
+          <div class="planet--green">
+            <img src="./assets/planet--green.svg" alt="" />
+          </div>
+          <div class="planet--organ-small">
+            <img src="./assets/planet--organ-small.svg" alt="" />
+          </div>
+          <div class="planet--sky">
+            <img src="./assets/planet--sky.svg" alt="" />
+          </div>
+          <div class="planet--organ-big">
+            <img src="./assets/planet--organ-big.svg" alt="" />
+          </div>
+          <div class="planet--green-2">
+            <img src="./assets/planet--green.svg" alt="" />
+          </div>
+
+          <div class="orbit orbit--1"></div>
+          <div class="orbit orbit--2"></div>
+          <div class="orbit orbit--3"></div>
+          <div class="orbit orbit--4"></div>
+          <div class="orbit orbit--5"></div>
+          <div class="hero--content margin-auto">
+            <div class="hero--content-texts">
+              <div class="service-pill">Secure your data</div>
+
+              <h1 class="hero--title">
+                Identity-hub is a better way to achieve <span> privacy</span>
+              </h1>
+
+              <p class="hero--subtitle">
+                Make your data invisible by generating unlimited identities. The
+                next-level in privacy protection for online and travel.
+              </p>
+
+              <div class="hero-cta margin-auto">
+                <button class="premium-btn gap-4 w-155 w-full">
+                  Start free trial
+                </button>
+                <button class="cta-content--button w-full">Use it now</button>
+              </div>
+            </div>
+
+            <div class="hero--img">
+              <div class="hero--img-center">
+                <img src="./assets/hero-image.svg" alt="" />
+              </div>
+
+              <div class="card-otp">
+                <div class="contact-item contact-item--small">
+                  <img
+                    class="contact-item--icon--small"
+                    src="./assets/card-2-visual-otp-icon.svg"
+                    alt=""
+                  />
+                  <div class="contact-item--content">
+                    <p class="contact-item--label">One-time passcode</p>
+                    <p class="contact-item--value">Kas3345-r32</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-phone">
+                <div class="contact-item contact-item--small">
+                  <img
+                    class="contact-item--icon--small"
+                    src="./assets/card-2-visual-call-icon.svg"
+                    alt=""
+                  />
+                  <div class="contact-item--content">
+                    <p class="contact-item--label">Phone numbers</p>
+                    <p class="contact-item--value">+1 (456) 453-3456</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-creditcard">
+                <div class="contact-item contact-item--small">
+                  <img
+                    class="contact-item--icon--small"
+                    src="./assets/card-2-visual-creditcard-icon.svg"
+                    alt=""
+                  />
+                  <div class="contact-item--content">
+                    <p class="contact-item--label">Credit card</p>
+                    <p class="contact-item--value">+1 (456) 453-3456</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-email">
+                <div class="contact-item contact-item--small">
+                  <img
+                    class="contact-item--icon--small"
+                    src="./assets/card-2-visual-email-icon.svg"
+                    alt=""
+                  />
+                  <div class="contact-item--content">
+                    <p class="contact-item--label">Email address</p>
+                    <p class="contact-item--value">+1 (456) 453-3456</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
+
