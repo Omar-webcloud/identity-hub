@@ -56,7 +56,7 @@
    
 }
 
-.blue li{
+/* .blue li{
      list-style: url(/assets/feature-check-blue-icon.svg);
 }
 
@@ -66,7 +66,7 @@
 
 .green li{
      list-style: url(/assets/feature-check-green-icon.svg);
-}
+} */
 
 .glassbox h2{
     font-family: var(--font-aeonik);
@@ -78,16 +78,60 @@
     font-weight: 400;
     font-size: 2rem;
     list-style-position: inside;
-    padding-left: 40px;
-    text-indent: -2em;
+    padding-left: 36px;
+   
    
 }
-.glassbox li::marker {
-  vertical-align: middle; 
-}
+
+
 .stretch{
     display: flex;
     flex-direction: column;
     gap: 42px;
     justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 28px;
+}
+
+.blue li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 28px;
+  height: 28px;
+  background-image: url("/assets/feature-check-blue-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.purple li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 28px;
+  height: 28px;
+  background-image: url("/assets/feature-check-purple-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.green li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 28px;
+  height: 28px;
+  background-image: url("/assets/feature-check-green-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
