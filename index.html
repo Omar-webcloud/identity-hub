@@ -3,13 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Identity hub</title>
-    <link rel="stylesheet" href="./css/hero.css" />
-    <link rel="stylesheet" href="./css/services.css" />
-    <link rel="stylesheet" href="./css/pricing.css" />
-    <link rel="stylesheet" href="./css/why-choose.css" />
-    <link rel="stylesheet" href="./css/user-review.css" />
-    <link rel="stylesheet" href="./css/be-part.css" />
+    <title>Identity Hub</title>
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,34 +19,34 @@
   </head>
 
   <body>
-    <!-- navbar -->
+    <!-- navbar section -->
     <header>
       <nav class="navbar">
         <div class="container">
-          <div class="navbar--container">
-           
-            <div class="navbar--brand">
-              <img src="./assets/logo.svg" alt="" class="navbar--logo" />
+          <div class="navbar-container">
+            <!-- brand -->
+            <div class="navbar-brand">
+              <img src="./assets/logo.svg" alt="" class="navbar-logo" />
             </div>
 
-            
-            <ul class="navbar--menu" id="navbarMenu">
-              <li class="navbar--menu-item">
-                <a href="#" class="navbar--menu-link">Services</a>
+            <!-- Menu -->
+            <ul class="navbar-menu" id="navbarMenu">
+              <li class="navbar-menu-item">
+                <a href="#" class="navbar-menu-link">Services</a>
               </li>
-              <li class="navbar--menu-item">
-                <a href="#" class="navbar--menu-link">Features</a>
+              <li class="navbar-menu-item">
+                <a href="#" class="navbar-menu-link">Features</a>
               </li>
-              <li class="navbar--menu-item">
-                <a href="#" class="navbar--menu-link">Pricing</a>
+              <li class="navbar-menu-item">
+                <a href="#" class="navbar-menu-link">Pricing</a>
               </li>
-              <li class="navbar--menu-item">
-                <a href="#" class="navbar--menu-link">Partners</a>
+              <li class="navbar-menu-item">
+                <a href="#" class="navbar-menu-link">Partners</a>
               </li>
-              <li class="navbar--menu-item">
-                <a href="#" class="navbar--menu-link">About us</a>
+              <li class="navbar-menu-item">
+                <a href="#" class="navbar-menu-link">About us</a>
               </li>
-              <div class="navbar--actions">
+              <div class="navbar-actions">
                 <button class="premium-btn gap-4 w-155">
                   Start free trial
                   <img
@@ -63,9 +58,9 @@
               </div>
             </ul>
 
-            <!-- nav toggle -->
+            <!-- hamburger -->
             <button
-              class="navbar--toggle"
+              class="navbar-toggle"
               id="navbarToggle"
               aria-label="Toggle navigation"
               aria-expanded="false"
@@ -75,47 +70,47 @@
               <span></span>
               <span></span>
             </button>
-           
+            <!-- nav action btn -->
           </div>
         </div>
       </nav>
     </header>
-<main>
- <!-- hero -->
+
+    <!-- hero section -->
     <section class="hero">
       <div class="container">
-        <div class="hero--overlay space-container">
-
+        <div class="hero-overlay space-container">
+          <!-- planet -->
           <div class="planet--green">
-            <img src="./assets/planet--green.svg" alt="" />
+            <img src="/assets/planet--green.svg" alt="" />
           </div>
           <div class="planet--organ-small">
-            <img src="./assets/planet--organ-small.svg" alt="" />
+            <img src="/assets/planet--organ-small.svg" alt="" />
           </div>
           <div class="planet--sky">
-            <img src="./assets/planet--sky.svg" alt="" />
+            <img src="/assets/planet--sky.svg" alt="" />
           </div>
           <div class="planet--organ-big">
-            <img src="./assets/planet--organ-big.svg" alt="" />
+            <img src="/assets/planet--organ-big.svg" alt="" />
           </div>
           <div class="planet--green-2">
-            <img src="./assets/planet--green.svg" alt="" />
+            <img src="/assets/planet--green.svg" alt="" />
           </div>
-
-          <div class="orbit orbit--1"></div>
-          <div class="orbit orbit--2"></div>
-          <div class="orbit orbit--3"></div>
-          <div class="orbit orbit--4"></div>
-          <div class="orbit orbit--5"></div>
-          <div class="hero--content margin-auto">
-            <div class="hero--content-texts">
+          <!-- circle -->
+          <div class="circle circle--1"></div>
+          <div class="circle circle--2"></div>
+          <div class="circle circle--3"></div>
+          <div class="circle circle--4"></div>
+          <div class="circle circle--5"></div>
+          <div class="hero-content margin-auto">
+            <div class="hero-content-texts">
               <div class="service-pill">Secure your data</div>
 
-              <h1 class="hero--title">
+              <h1 class="hero-title">
                 Identity-hub is a better way to achieve <span> privacy</span>
               </h1>
 
-              <p class="hero--subtitle">
+              <p class="hero-subtitle">
                 Make your data invisible by generating unlimited identities. The
                 next-level in privacy protection for online and travel.
               </p>
@@ -124,67 +119,72 @@
                 <button class="premium-btn gap-4 w-155 w-full">
                   Start free trial
                 </button>
-                <button class="cta-content--button w-full">Use it now</button>
+                <button class="cta-content-button w-full">Use it now</button>
               </div>
             </div>
 
-            <div class="hero--img">
-              <div class="hero--img-center">
+            <!-- comment: hero image -->
+            <div class="hero-img">
+              <div class="hero-img-center">
                 <img src="./assets/hero-image.svg" alt="" />
               </div>
 
+              <!-- comment: otp -->
               <div class="card-otp">
                 <div class="contact-item contact-item--small">
                   <img
-                    class="contact-item--icon--small"
+                    class="contact-item-icon--small"
                     src="./assets/card-2-visual-otp-icon.svg"
                     alt=""
                   />
-                  <div class="contact-item--content">
-                    <p class="contact-item--label">One-time passcode</p>
-                    <p class="contact-item--value">Kas3345-r32</p>
+                  <div class="contact-item-content">
+                    <p class="contact-item-label">One-time passcode</p>
+                    <p class="contact-item-value">Kas3345-r32</p>
                   </div>
                 </div>
               </div>
 
+              <!-- comment: call -->
               <div class="card-phone">
                 <div class="contact-item contact-item--small">
                   <img
-                    class="contact-item--icon--small"
+                    class="contact-item-icon--small"
                     src="./assets/card-2-visual-call-icon.svg"
                     alt=""
                   />
-                  <div class="contact-item--content">
-                    <p class="contact-item--label">Phone numbers</p>
-                    <p class="contact-item--value">+1 (456) 453-3456</p>
+                  <div class="contact-item-content">
+                    <p class="contact-item-label">Phone numbers</p>
+                    <p class="contact-item-value">+1 (456) 453-3456</p>
                   </div>
                 </div>
               </div>
 
+              <!-- comment:credit card -->
               <div class="card-creditcard">
                 <div class="contact-item contact-item--small">
                   <img
-                    class="contact-item--icon--small"
+                    class="contact-item-icon--small"
                     src="./assets/card-2-visual-creditcard-icon.svg"
                     alt=""
                   />
-                  <div class="contact-item--content">
-                    <p class="contact-item--label">Credit card</p>
-                    <p class="contact-item--value">+1 (456) 453-3456</p>
+                  <div class="contact-item-content">
+                    <p class="contact-item-label">Credit card</p>
+                    <p class="contact-item-value">+1 (456) 453-3456</p>
                   </div>
                 </div>
               </div>
 
+              <!-- comment:email -->
               <div class="card-email">
                 <div class="contact-item contact-item--small">
                   <img
-                    class="contact-item--icon--small"
+                    class="contact-item-icon--small"
                     src="./assets/card-2-visual-email-icon.svg"
                     alt=""
                   />
-                  <div class="contact-item--content">
-                    <p class="contact-item--label">Email address</p>
-                    <p class="contact-item--value">+1 (456) 453-3456</p>
+                  <div class="contact-item-content">
+                    <p class="contact-item-label">Email address</p>
+                    <p class="contact-item-value">+1 (456) 453-3456</p>
                   </div>
                 </div>
               </div>
@@ -194,173 +194,713 @@
       </div>
     </section>
 
-    <!-- services -->
-   <section class="service container">
-  <div class="content">
-    <div class="service-pill">Services</div>
+    <!-- service section -->
+    <section class="service">
+      <div class="content">
+        <div class="service-pill">Services</div>
 
-   <div class="service-text">
-     <h1 class="service--title">
-      See our services for<br />
-      secure your <span class="gradient-text">Data</span>
-    </h1>
+        <h1 class="service-title">
+          See our services for<br />
+          secure your <span class="gradient-text">Data</span>
+        </h1>
 
-    <p class="service--subtitle">
-      Make your data invisible by generating unlimited identities. <br />
-      The next-level in privacy protection for online and travel.
-    </p>
-   </div>
-  </div>
-
-  <div class="service--cards">
-    <!-- card 1 -->
-    <article class="service-card">
-      <div class="service-card--icon-wrapper">
-        <img
-          src="./assets/service-icon-1.svg"
-          alt=""
-          class="service-card--icon"
-        />
-      </div>
-
-      <div class="service-card--body">
-        <h3 class="service-card--title">Personal Information removal</h3>
-        <p class="service-card--description">
-          Lets users quickly find answers to their questions without having
-          to search through multiple sources.
+        <p class="service-subtitle">
+          Make your data invisible by generating unlimited identities. <br />
+          The next-level in privacy protection for online and travel.
         </p>
       </div>
 
-      <footer class="service-card--footer">
-        <a href="#" class="service-card--link">
-          Explore More
-          <span class="service-card--link-icon">
-            <img src="./assets/explore-more-icon.svg" alt="" />
-          </span>
-        </a>
-      </footer>
-    </article>
+      <div class="service-cards">
+        <!-- Comment: card 1 -->
+        <article class="service-card">
+          <div class="service-card-icon-wrapper">
+            <img
+              src="./assets/service-icon-1.svg"
+              alt=""
+              class="service-card-icon"
+            />
+          </div>
 
-    <!-- card 2 -->
-    <article class="service-card">
-      <div class="service-card--icon-wrapper">
-        <img
-          src="./assets/cloaking.svg"
-          alt=""
-          class="service-card--icon"
-        />
+          <div class="service-card-body">
+            <h3 class="service-card-title">Personal Information removal</h3>
+            <p class="service-card-description">
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+          </div>
+
+          <footer class="service-card-footer">
+            <a href="#" class="service-card-link">
+              Explore More
+              <span class="service-card-link-icon">
+                <img src="./assets/explore-more-icon.svg" alt="" />
+              </span>
+            </a>
+          </footer>
+        </article>
+        <!-- Comment: card 2 -->
+        <article class="service-card">
+          <div class="service-card-icon-wrapper">
+            <img
+              src="./assets/service-icon-1.svg"
+              alt=""
+              class="service-card-icon"
+            />
+          </div>
+
+          <div class="service-card-body">
+            <h3 class="service-card-title">Personal Information removal</h3>
+            <p class="service-card-description">
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+          </div>
+
+          <footer class="service-card-footer">
+            <a href="#" class="service-card-link">
+              Explore More
+              <span class="service-card-link-icon">
+                <img src="./assets/explore-more-icon.svg" alt="" />
+              </span>
+            </a>
+          </footer>
+        </article>
+
+        <!-- Comment: card 3 -->
+        <article class="service-card">
+          <div class="service-card-icon-wrapper">
+            <img
+              src="./assets/service-icon-1.svg"
+              alt=""
+              class="service-card-icon"
+            />
+          </div>
+
+          <div class="service-card-body">
+            <h3 class="service-card-title">Personal Information removal</h3>
+            <p class="service-card-description">
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+          </div>
+
+          <footer class="service-card-footer">
+            <a href="#" class="service-card-link">
+              Explore More
+              <span class="service-card-link-icon">
+                <img src="./assets/explore-more-icon.svg" alt="" />
+              </span>
+            </a>
+          </footer>
+        </article>
       </div>
+    </section>
 
-      <div class="service-card--body">
-        <h3 class="service-card--title">Personal Information removal</h3>
-        <p class="service-card--description">
-          Lets users quickly find answers to their questions without having
-          to search through multiple sources.
-        </p>
-      </div>
+    <!--Features:  why choose us -->
+    <section class="features">
+      <div class="container">
+        <!-- Comment: Section heading -->
+        <div class="content margin-auto">
+          <div class="service-pill">Features</div>
 
-      <footer class="service-card--footer">
-        <a href="#" class="service-card--link">
-          Explore More
-          <span class="service-card--link-icon">
-            <img src="./assets/explore-more-icon.svg" alt="" />
-          </span>
-        </a>
-      </footer>
-    </article>
+          <h1 class="service-title">
+            Why <span class="gradient-text">choose</span> us
+          </h1>
 
-    <!-- card 3 -->
-    <article class="service-card">
-      <div class="service-card--icon-wrapper">
-        <img
-          src="./assets/virtual.svg"
-          alt=""
-          class="service-card--icon"
-        />
-      </div>
-
-      <div class="service-card--body">
-        <h3 class="service-card--title">Personal Information removal</h3>
-        <p class="service-card--description">
-          Lets users quickly find answers to their questions without having
-          to search through multiple sources.
-        </p>
-      </div>
-
-      <footer class="service-card--footer">
-        <a href="#" class="service-card--link">
-          Explore More
-          <span class="service-card--link-icon">
-            <img src="./assets/explore-more-icon.svg" alt="" />
-          </span>
-        </a>
-      </footer>
-    </article>
-  </div>
-</section>
-
-     <!-- why choose us -->
-
-<section class="why-choose container">
-    <div class="text-content">
-        <div class="feature-btn service-pill">Features</div>
-        <div class="texts">
-            <h1>Why <span class="gradient-text">choose</span> us</h1>
-            <p>We are the only service that provides all 3 services as a packaged service</p>
+          <p class="service-subtitle">
+            We are the only service that provides all 3 services <br />
+            as a packaged service
+          </p>
         </div>
-    </div>
 
-    <div class="glassboxes">
-        <div class="glassbox blue">
-            
-            <div class="protect">
-                <div class="line"><img src="/assets/feature-card-progress-blue.svg" alt=""></div>
-<div class="stretch"><h2>Protect Personal Infromation</h2>
-                <ul>
-                    <li>The first step involves identifying all places where your personal information might be present.</li>
-                    <li>Once you've identified where your information is held, the next step is to contact the administrators of this platform</li>
-                    <li>Removing personal information is not a one-time task but requires ongoing vigilance.</li>
-                    <li>There are professional services and tools available that specialise in personal information removal.</li>
-                </ul>
+        <!-- Comment: Feature cards wrapper -->
+        <div class="space-container">
+          <div class="circle circle--1"></div>
+          <div class="circle circle--2"></div>
+          <div class="circle circle--3"></div>
+          <div class="circle circle--4"></div>
+          <div class="circle circle--5"></div>
+
+          <div class="feature-cards">
+            <!-- Comment: Card 1 -->
+            <div class="feature-card">
+              <div class="feature-card-content">
+                <div class="feature-content-progressbar">
+                  <img
+                    src="./assets/feature-card-progress-blue.svg"
+                    alt="progress bar"
+                  />
+
+                  <div class="feature-content-texts">
+                    <h1 class="feature-content-heading">
+                      Protect Personal information
+                    </h1>
+
+                    <ul class="feature-content-description">
+                      <li
+                        class="feature-card-list-item feature-card-list-item--blue"
+                      >
+                        The first step involves identifying all places where
+                        your personal information might be present.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--blue"
+                      >
+                        Once you've identified where your information is held,
+                        the next step is to contact the administrators of this
+                        platform.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--blue"
+                      >
+                        Removing personal information is not a one-time task but
+                        requires ongoing vigilance.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--blue"
+                      >
+                        Removing personal information is not a one-time task but
+                        requires ongoing vigilance.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-            </div>
-            <div class="protect-img"><img src="/assets/feature-card-visual.svg" alt=""></div>
-        </div>
-        <div class="glassbox purple">
-           
-            <div class="report">
-                 <div class="line"><img src="/assets/feature-card-progress-purple.svg" alt=""></div>
-                 <div class="stretch">
-                <h2>Detailed Reporting</h2>
-                <ul>
-                    <li>The first step involves identifying all places where your personal information might be present.</li>
-                    <li>Once you've identified where your information is held, the next step is to contact the administrators of this platform</li>
-                    <li>Removing personal information is not a one-time task but requires ongoing vigilance.</li>
-                    <li>There are professional services and tools available that specialise in personal information removal.</li>
-                </ul>
+
+                <div class="feature-card-visual">
+                  <img
+                    src="./assets/feature-card-visual.svg"
+                    alt="protect personal infographic"
+                    class="feature-card-visual-image"
+                  />
                 </div>
+              </div>
             </div>
-            <div class="report-img"> <img src="/assets/feature-card-report.png" alt=""></div>
-        </div>
-        <div class="glassbox green">
-            
-            <div class="secure">
-                <div class="line"><img src="/assets/feature-card-progress-green.svg" alt=""></div>
-                <div class="stretch">
-                <h2>Secure All Data</h2>
-                <ul>
-                    <li>The first step involves identifying all places where your personal information might be present.</li>
-                    <li>Once you've identified where your information is held, the next step is to contact the administrators of this platform</li>
-                    <li>Removing personal information is not a one-time task but requires ongoing vigilance.</li>
-                    <li>There are professional services and tools available that specialise in personal information removal.</li>
-                </ul>
+
+            <!-- Comment: Card 2 -->
+            <div class="feature-card">
+              <div class="feature-card-content">
+                <div class="feature-content-progressbar">
+                  <img
+                    src="./assets/feature-card-progress-purple.svg"
+                    alt="progress bar"
+                  />
+
+                  <div class="feature-content-texts">
+                    <h1 class="feature-content-heading">
+                      Protect Personal information
+                    </h1>
+
+                    <ul class="feature-content-description">
+                      <li
+                        class="feature-card-list-item feature-card-list-item--purple"
+                      >
+                        The first step involves identifying all places where
+                        your personal information might be present.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--purple"
+                      >
+                        Once you've identified where your information is held,
+                        the next step is to contact the administrators of this
+                        platform.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--purple"
+                      >
+                        Removing personal information is not a one-time task but
+                        requires ongoing vigilance.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--purple"
+                      >
+                        Removing personal information is not a one-time task but
+                        requires ongoing vigilance.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+
+                <div class="feature-card-visual">
+                  <div class="feature-card-grid">
+                    <div class="contact-item contact-item--regular">
+                      <img
+                        class="contact-item-icon"
+                        src="./assets/card-2-visual-contact-icon.svg"
+                        alt=""
+                      />
+                      <div class="contact-item-content">
+                        <p class="contact-item-label">Username</p>
+                        <p class="contact-item-value">+1 (456) 453-3456</p>
+                      </div>
+                    </div>
+
+                    <div class="contact-item contact-item--regular">
+                      <img
+                        class="contact-item-icon"
+                        src="./assets/card-2-visual-call-icon.svg"
+                        alt=""
+                      />
+                      <div class="contact-item-content">
+                        <p class="contact-item-label">Phone numbers</p>
+                        <p class="contact-item-value">+1 (456) 453-3456</p>
+                      </div>
+                    </div>
+
+                    <div class="contact-item contact-item--regular">
+                      <img
+                        class="contact-item-icon"
+                        src="./assets/card-2-visual-email-icon.svg"
+                        alt=""
+                      />
+                      <div class="contact-item-content">
+                        <p class="contact-item-label">Email address</p>
+                        <p class="contact-item-value">example@email.com</p>
+                      </div>
+                    </div>
+
+                    <div class="contact-item contact-item--regular">
+                      <img
+                        class="contact-item-icon"
+                        src="./assets/card-2-visual-creditcard-icon.svg"
+                        alt=""
+                      />
+                      <div class="contact-item-content">
+                        <p class="contact-item-label">Credit card</p>
+                        <p class="contact-item-value">**** **** **** 3456</p>
+                      </div>
+                    </div>
+
+                    <div class="contact-item contact-item--regular">
+                      <img
+                        class="contact-item-icon"
+                        src="./assets/card-2-visual-password-icon.svg"
+                        alt=""
+                      />
+                      <div class="contact-item-content">
+                        <p class="contact-item-label">Password</p>
+                        <p class="contact-item-value">Kas3345-r32</p>
+                      </div>
+                    </div>
+
+                    <div class="contact-item contact-item--regular">
+                      <img
+                        class="contact-item-icon"
+                        src="./assets/card-2-visual-otp-icon.svg"
+                        alt=""
+                      />
+                      <div class="contact-item-content">
+                        <p class="contact-item-label">One-time passcode</p>
+                        <p class="contact-item-value">Kas3345-r32</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="secure-img"><img src="/assets/feature-card-security.svg" alt=""></div>
+
+            <!-- Comment:  Card 3 -->
+            <div class="feature-card">
+              <div class="feature-card-content">
+                <div class="feature-content-progressbar">
+                  <img
+                    src="./assets/feature-card-progress-green.svg"
+                    alt="progress bar"
+                  />
+
+                  <div class="feature-content-texts">
+                    <h1 class="feature-content-heading">
+                      Protect Personal information
+                    </h1>
+
+                    <ul class="feature-content-description">
+                      <li
+                        class="feature-card-list-item feature-card-list-item--green"
+                      >
+                        The first step involves identifying all places where
+                        your personal information might be present.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--green"
+                      >
+                        Once you've identified where your information is held,
+                        the next step is to contact the administrators of this
+                        platform.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--green"
+                      >
+                        Removing personal information is not a one-time task but
+                        requires ongoing vigilance.
+                      </li>
+                      <li
+                        class="feature-card-list-item feature-card-list-item--green"
+                      >
+                        Removing personal information is not a one-time task but
+                        requires ongoing vigilance.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="feature-card-visual">
+                  <img
+                    src="./assets/feature-card-security.svg"
+                    alt="protect personal infographic"
+                    class="feature-card-visual-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
-    </main>
+      </div>
+    </section>
+
+    <!-- Comment: pricing  -->
+    <section class="pricing">
+      <div class="pricing-planet--organ-small">
+        <img src="/assets/planet--organ-small.svg" alt="" />
+      </div>
+      <div class="pricing-planet--sky">
+        <img src="/assets/planet--sky.svg" alt="" />
+      </div>
+
+      <div class="container margin-auto">
+        <div class="testimonials-content">
+          <div class="service-pill">Pricing</div>
+
+          <h1 class="service-title">
+            Our <span class="gradient-text">Pricing</span> Package
+          </h1>
+        </div>
+        <div class="space-container">
+          <div class="pricing-container">
+            <article class="pricing-card">
+              <h2 class="pricing-card-title">Basic</h2>
+              <p class="pricing-card-description">
+                AI chatbot, personalized recommendations
+              </p>
+              <div class="pricing-card-price">
+                <span class="pricing-card-currency">$</span>0
+              </div>
+              <a href="#" class="premium-btn w-full" style="padding: 16px 0"
+                >Get Started</a
+              >
+              <ul class="pricing-card-features">
+                <li class="pricing-card-feature">Type of threat</li>
+                <li class="pricing-card-feature">Online presence</li>
+                <li class="pricing-card-feature">Access to all modules</li>
+                <li class="pricing-card-feature">Notability</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card pricing-card--featured">
+              <h2 class="pricing-card-title">Premium</h2>
+              <p class="pricing-card-description">
+                Advanced AI chatbot, priority support, analytics dashboard
+              </p>
+              <div class="pricing-card-price">
+                <span class="pricing-card-currency">$</span>9.99
+              </div>
+              <a href="#" class="cta-content-button" style="padding: 16px 0"
+                >Get Started</a
+              >
+              <ul class="pricing-card-features">
+                <li class="pricing-card-feature">Type of threat</li>
+                <li class="pricing-card-feature">Online presence</li>
+                <li class="pricing-card-feature">Access to all modules</li>
+                <li class="pricing-card-feature">Notability</li>
+                <li class="pricing-card-feature">
+                  Optimize existing websites
+                </li>
+              </ul>
+            </article>
+
+            <article class="pricing-card">
+              <h2 class="pricing-card-title">Enterprise</h2>
+              <p class="pricing-card-description">
+                AI chatbot, personalized recommendations
+              </p>
+              <div class="pricing-card-price">
+                <span class="pricing-card-currency">$</span>20.99
+              </div>
+              <a href="#" class="premium-btn w-full" style="padding: 16px 0"
+                >Get Started</a
+              >
+              <ul class="pricing-card-features">
+                <li class="pricing-card-feature">Type of threat</li>
+                <li class="pricing-card-feature">Online presence</li>
+                <li class="pricing-card-feature">Access to all modules</li>
+                <li class="pricing-card-feature">Notability</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comment: testimonial -->
+    <section class="testimonials">
+      <div class="testimonials-content">
+        <div class="service-pill">Testimonial</div>
+        <h1 class="service-title">
+          What's our user <span class="gradient-text">says</span> <br />
+          about us
+        </h1>
+      </div>
+
+      <div class="testimonials-wrapper">
+        <div class="outer-container">
+          <div class="inner-container">
+            <div class="swiper" id="testimonialsSwiper">
+              <div class="swiper-wrapper">
+                <!-- Comment: Slide 1 -->
+                <div class="swiper-slide">
+                  <div class="card-content">
+                    <div class="testimonial">
+                      <div class="author">
+                        <div class="avatar">
+                          <img
+                            src="./assets/profile-pic.png"
+                            alt="David J. Karem"
+                          />
+                        </div>
+                        <div class="author-content">
+                          <div class="author-info">
+                            <h3>David J. Karem</h3>
+                            <p class="author-meta">Businessman • 1 day ago</p>
+                          </div>
+                          <p class="testimonial-text">
+                            Forget about spam, advertising mailings, hacking and
+                            attacking robots. Keep your real mailbox clean and
+                            secure. Temp Mail provides temporary, secure,
+                            anonymous, free, disposable email address. Stalkers
+                            and disgruntled acquaintances use the Internet to
+                            find addresses, phone numbers and other personal
+                            details about their targets. Identity thieves use
+                            personal information numbers and other personal
+                            details.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Comment: Slide 2 -->
+                <div class="swiper-slide">
+                  <div class="card-content">
+                    <div class="testimonial">
+                      <div class="author">
+                        <div class="avatar">
+                          <img
+                            src="./assets/profile-pic.png"
+                            alt="David J. Karem"
+                          />
+                        </div>
+                        <div class="author-content">
+                          <div class="author-info">
+                            <h3>David J. Karem</h3>
+                            <p class="author-meta">Businessman • 1 day ago</p>
+                          </div>
+                          <p class="testimonial-text">
+                            Forget about spam, advertising mailings, hacking and
+                            attacking robots. Keep your real mailbox clean and
+                            secure. Temp Mail provides temporary, secure,
+                            anonymous, free, disposable email address. Stalkers
+                            and disgruntled acquaintances use the Internet to
+                            find addresses, phone numbers and other personal
+                            details about their targets. Identity thieves use
+                            personal information numbers and other personal
+                            details.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Comment: Slide 3 -->
+                <div class="swiper-slide">
+                  <div class="card-content">
+                    <div class="testimonial">
+                      <div class="author">
+                        <div class="avatar">
+                          <img
+                            src="./assets/profile-pic.png"
+                            alt="David J. Karem"
+                          />
+                        </div>
+                        <div class="author-content">
+                          <div class="author-info">
+                            <h3>David J. Karem</h3>
+                            <p class="author-meta">Businessman • 1 day ago</p>
+                          </div>
+                          <p class="testimonial-text">
+                            Forget about spam, advertising mailings, hacking and
+                            attacking robots. Keep your real mailbox clean and
+                            secure. Temp Mail provides temporary, secure,
+                            anonymous, free, disposable email address. Stalkers
+                            and disgruntled acquaintances use the Internet to
+                            find addresses, phone numbers and other personal
+                            details about their targets. Identity thieves use
+                            personal information numbers and other personal
+                            details.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Comment: Slide 4 -->
+                <div class="swiper-slide">
+                  <div class="card-content">
+                    <div class="testimonial">
+                      <div class="author">
+                        <div class="avatar">
+                          <img
+                            src="./assets/profile-pic.png"
+                            alt="David J. Karem"
+                          />
+                        </div>
+                        <div class="author-content">
+                          <div class="author-info">
+                            <h3>David J. Karem</h3>
+                            <p class="author-meta">Businessman • 1 day ago</p>
+                          </div>
+                          <p class="testimonial-text">
+                            Forget about spam, advertising mailings, hacking and
+                            attacking robots. Keep your real mailbox clean and
+                            secure. Temp Mail provides temporary, secure,
+                            anonymous, free, disposable email address. Stalkers
+                            and disgruntled acquaintances use the Internet to
+                            find addresses, phone numbers and other personal
+                            details about their targets. Identity thieves use
+                            personal information numbers and other personal
+                            details.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="dots" id="dotsContainer">
+            <button class="dot"></button>
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+
+          
+          <div class="nav-btn-position btn-left">
+            <button class="nav-btn btn-prev" aria-label="Previous">
+              <svg viewBox="0 0 24 24">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+          </div>
+          <div class="nav-btn-position btn-right">
+            <button class="nav-btn btn-next" aria-label="Next">
+              <svg viewBox="0 0 24 24">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="space-container" style="--gradient-size: 50vmax">
+        <div class="circle circle--1"></div>
+        <div class="circle circle--2"></div>
+        <div class="circle circle--3"></div>
+        <div class="circle circle--4"></div>
+        <div class="circle circle--5"></div>
+        <div class="container">
+          <div class="cta-container">
+            <div class="cta-content">
+              <div class="cta-content-accent-wrapper">
+                <h1 class="cta-content-heading">
+                  Be part of the future of IdentityHub
+                </h1>
+                <div class="cta-content-stroke">
+                  <img src="./assets/cta-stoke.svg" alt="" srcset="" />
+                </div>
+              </div>
+
+              <p class="cta-content-subheading">
+                Unleash the power of AI within Brainwave. Upgrade your
+                productivity with Brainwave, the open AI chat app.
+              </p>
+
+              <a href="#" class="cta-content-button"> Start free trail </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        
+        <div class="footer-top">
+          <a href="/" class="footer-logo">
+            <img src="./assets/logo.svg" alt="IdentityHub" />
+          </a>
+
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Features</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Services</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Pricing</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">How to use</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            © IdentityHub 2024. All rights reserved.
+          </p>
+
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link" aria-label="Twitter">
+              <img src="./assets/footer-twitter-icon.svg" alt="Twitter" />
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Instagram">
+              <img src="./assets/footer-insta-icon.svg" alt="Instagram" />
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Telegram">
+              <img
+                src="./assets/footer-telegram-icon.svg"
+                alt="Telegram"
+              />
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Facebook">
+              <img src="./assets/footer-fb-icon.svg" alt="Facebook" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
+
 

@@ -1,0 +1,211 @@
+﻿
+
+.service {
+  --gradient-primary: linear-gradient(to right, #090edb 19%, #8d1ea2 96%);
+  --gradient-border: linear-gradient(
+    87.95deg,
+    rgba(9, 14, 219, 0.66) -15.78%,
+    rgba(231, 61, 196, 0.66) 102.06%
+  );
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(3rem, 8vw, 10rem) clamp(1rem, 2vw, 2.4rem);
+  background: transparent;
+  color: #cad1e9;
+  text-align: center;
+  overflow: hidden;
+  background: url("../assets/grind-2.png");
+}
+
+.content {
+  width: 100%;
+  max-width: 67.4rem;
+  max-height: 21.4rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  text-align: center;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #090edb 19%, #8d1ea2 96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* .service-subtitle {
+  font-family: var(--font-aeonik);
+  color: #cac6dd;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  line-height: 1.4;
+  padding-top: 0.8rem;
+  opacity: 0.92;
+  width: 67.4rem;
+  height: 6.8rem;
+} */
+
+.service-cards {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 4rem;
+}
+.service-card {
+  z-index: 200;
+  position: relative;
+  max-width: 42.4rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  border-radius: 2.4rem;
+  border-top-right-radius: 25%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.service-card::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    #181035 0%,
+    #0c0a14 53%,
+    #000000 100%
+  );
+}
+.service-card::before {
+  z-index: 10;
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border-top-right-radius: 25%;
+  padding: 2px;
+  background: linear-gradient(
+    87.95deg,
+    rgba(9, 14, 219, 0.66) -15.78%,
+    rgba(231, 61, 196, 0.66) 102.06%
+  );
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.service-card-icon-wrapper {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+
+.service-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  text-align: start;
+}
+
+.service-card-title,
+.service-card-description {
+  font-family: var(--font-aeonik);
+}
+
+.service-card-title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #d6ddf8;
+  line-height: 1.2;
+}
+
+.service-card-description {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #cac6dd;
+}
+
+.service-card-link {
+  font-family: var(--font-sora);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.service-card-link:hover {
+  opacity: 0.8;
+}
+/* --- Global Responsive Adjustments --- */
+
+.service-subtitle {
+  width: 100%;
+  max-width: 67.4rem;
+  height: auto;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  margin-bottom: 2rem;
+  font-family: var(--font-aeonik);
+  color: #cac6dd;
+  padding-top: 0.8rem;
+  opacity: 0.92;
+}
+
+/* --- Breakpoint: 860px (Tablets) --- */
+@media (max-width: 860px) {
+  .service {
+    padding: 6rem 2rem;
+  }
+
+  .service-cards {
+    flex-wrap: wrap; /* Allows cards to drop to next line */
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .service-card {
+    /* Two cards per row at 860px */
+    /* max-width: calc(50% - 2rem); */
+    /* padding: 2.4rem; */
+  }
+}
+
+/* --- Breakpoint: 480px (Mobile) --- */
+@media (max-width: 600px) {
+  .service {
+    /* padding: 6rem 2rem; */
+  }
+
+  .service-cards {
+    flex-direction: column; /* Allows cards to drop to next line */
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .service-card {
+    width: 100%;
+    padding: 1.4rem;
+  }
+}
+@media (max-width: 460px) {
+  .service-subtitle br {
+    display: none;
+  }
+}
+
