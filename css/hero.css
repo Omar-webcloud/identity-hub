@@ -342,7 +342,7 @@ header {
   --orbit-4: clamp(62rem, 76vw, 105.4rem);
   --orbit-5: clamp(74rem, 90vw, 124.8rem);
 
-  min-height: 100vh;
+  max-height: 100vh;
   
   background: url("../assets/grind-2.png") no-repeat center / cover;
 }

@@ -50,31 +50,20 @@
 
 }
 
-.blue{
-     background-image: url(/assets/feature-card-progress-blue.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-    
+.protect, .report  , .secure{
+    display: flex;
+    gap: 20px;
+   
 }
+
 .blue li{
      list-style: url(/assets/feature-check-blue-icon.svg);
 }
-.purple{
-     background-image: url(/assets/feature-card-progress-purple.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-}
+
 .purple li{
      list-style: url(/assets/feature-check-purple-icon.svg);
 }
-.green{
-     background-image: url(/assets/feature-card-progress-green.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-}
+
 .green li{
      list-style: url(/assets/feature-check-green-icon.svg);
 }
@@ -91,4 +80,14 @@
     list-style-position: inside;
     padding-left: 40px;
     text-indent: -2em;
+   
+}
+.glassbox li::marker {
+  vertical-align: middle; 
+}
+.stretch{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    justify-content: space-between;
 }
