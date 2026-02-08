@@ -36,6 +36,7 @@
     font-weight: 600;
     color: rgba(202, 209, 233, 1);
     line-height: 120%;
+    text-align: center;
 }
 
 .service--subtitle {
@@ -44,14 +45,16 @@
     color: #CAC6DD;
     font-weight: 400;
     line-height: 140%;
+    text-align: center;
 }
 
 
 
 .service--cards{
-    display: flex;
+    display: grid;
     justify-content: space-between;
     gap: 24px;
+   grid-template-columns: repeat(3, 1fr);
 }
 
 .service-card{
@@ -61,6 +64,10 @@
     align-items: flex-start;
     gap: 28px;
     padding: 3.2rem;
+    background-image: url(/assets/card-border.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
 }
 
 .service-card--body{
@@ -96,4 +103,43 @@
 }
 .service-card--link img{
     vertical-align: middle;
+}
+
+
+/* services responsive */
+
+@media (max-width:1340px) {
+    .service{
+         padding: 0 2rem;
+    }
+}
+
+@media (max-width:992px) {
+    
+    .service--cards{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .service-card--body h3 {
+        font-size:2.4rem;
+    }
+    .service-card--body p{
+        font-size: 16px;
+    }
+    .service-card a{
+         font-size: 16px;
+    }
+}
+
+@media (max-width: 620px) {
+    .service--title{
+        font-size: 2.8rem;
+    }
+    .service--subtitle{
+        font-size: 1.8rem;
+    }
+    .service--cards{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
