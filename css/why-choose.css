@@ -105,7 +105,7 @@ li {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.4em;
+  top: 0.2em;
   width: 28px;
   height: 28px;
   background-image: url("/assets/feature-check-blue-icon.svg");
@@ -116,7 +116,7 @@ li {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.4em;
+  top: 0.2em;
   width: 28px;
   height: 28px;
   background-image: url("/assets/feature-check-purple-icon.svg");
@@ -128,7 +128,7 @@ li {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.4em;
+  top: 0.2em;
   width: 28px;
   height: 28px;
   background-image: url("/assets/feature-check-green-icon.svg");
