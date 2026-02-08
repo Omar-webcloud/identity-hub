@@ -1,9 +1,99 @@
-@font-face {
-    font-family: "Aeonik-Regular";
-    src: url(../fonts/fonnts.com-Aeonik-Regular.ttf) format('truetype');
+
+/* reusables */
+.gradient-text{
+  background: linear-gradient(87.49deg, #5a09db9a 0.01%, #8c1ea2 87.36%);
+
+ 
+  -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@font-face {
-    font-family: "Aeonik-bold";
-    src: url(../fonts/fonnts.com-Aeonik-Bold.ttf) format('truetype');
+
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.service-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.service--title {
+    font-family: var(--font-sora);
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgba(202, 209, 233, 1);
+    line-height: 120%;
+}
+
+.service--subtitle {
+    font-size: 2.4rem;
+    font-family: var(--font-aeonik);
+    color: #CAC6DD;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+
+.service--cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 3.2rem;
+}
+
+.service-card--body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.service-card--body h3{
+ font-family: var(--font-aeonik);
+ font-size: 2.8rem;
+ color: #D6DDF8;
+ font-weight: 500;
+
+}
+.service-card--description{
+    color: #CAC6DD;
+    font-size: 2rem;
+    font-family: var(--font-aeonik);
+
+}
+
+.service-card--link{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: var(--font-sora);
+}
+.service-card--link img{
+    vertical-align: middle;
 }

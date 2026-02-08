@@ -448,7 +448,7 @@ header {
   --size: var(--orbit-5);
 }
 
-/* Service */
+/* Service glass */
 .service-pill {
   position: relative;
   display: inline-flex;
