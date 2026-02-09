@@ -72,12 +72,14 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(
-    circle at center,
-    #181035 0%,
-    #0c0a14 53%,
-    #000000 100%
-  );
+  background:radial-gradient(
+  circle at center,
+  #2e1e68 0%,
+  #22164d 20%,
+  rgba(24, 16, 53, 0.6) 35%,
+  #141025 60%,
+  #0a0b11 100%
+);
   border-radius: 23px;
     border-top-right-radius: 100px;
 }
