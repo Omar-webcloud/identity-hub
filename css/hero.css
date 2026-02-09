@@ -63,7 +63,7 @@
   padding-top: 3.2rem;
   display: flex;
   gap: 1.6rem;
-  /* width: 100%; */
+  
 }
 .hero-content-texts {
   width: 100%;
@@ -73,7 +73,6 @@
   text-align: center;
 }
 
-/* task: ✅ */
 .hero-title,
 .hero-title span {
   background: var(--hero-gradient);
@@ -81,7 +80,6 @@
   -webkit-background-clip: text;
   color: transparent;
 }
-/* task: ✅ */
 .hero-title {
   padding-top: 0.8rem;
   padding-bottom: 2.4rem;
@@ -90,12 +88,10 @@
   font-size: clamp(3.2rem, 8vw, 6rem);
   line-height: 1.2;
 }
-/* task: ✅ */
 .hero-title span {
   position: relative;
   display: inline-block;
 }
-/* task: ✅ */
 .hero-title span::after {
   content: "";
   position: absolute;
@@ -107,7 +103,6 @@
   pointer-events: none;
   -webkit-text-fill-color: initial;
 }
-/* task: ✅ */
 .hero-subtitle {
   font-family: var(--font-aeonik);
   color: #cac6dd;
@@ -117,47 +112,40 @@
   max-width: 80.7rem;
   width: 100%;
 }
-/* task: ✅ */
 .hero-img {
   position: relative;
   width: 100%;
 }
-/* task: ✅ */
 .hero-img-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* task: ✅ */
 .hero-img-center img {
   max-width: 484.4px;
   aspect-ratio: 1/1;
   height: auto;
   object-fit: contain;
 }
-/* task: ✅ */
 .card-otp,
 .card-phone,
 .card-creditcard,
 .card-email {
   position: absolute;
 }
-/* task: ✅ */
 .card-otp {
   top: 5%;
   left: 8%;
 }
-/* task: ✅ */
 .card-phone {
   top: 5%;
   right: 8%;
 }
-/* task: ✅ */
 .card-creditcard {
   bottom: 5%;
   left: 8%;
 }
-/* task: ✅ */
+
 .card-email {
   bottom: 5%;
   right: 8%;
@@ -168,17 +156,16 @@
     padding: 0 2rem;
   }
   .hero-content {
-    gap: 3rem; /* Reduce space between text and image */
+    gap: 3rem; 
   }
 
-  /* Scale down the floating cards */
+  
   .contact-item--small {
     padding: 0.8rem;
     scale: 0.85;
     transform-origin: center;
   }
 
-  /* Move cards slightly inward so they don't clip the screen edges */
   .card-otp {
     left: 2%;
   }
@@ -205,30 +192,18 @@
   .hero-cta {
     padding-top: 1.2rem;
     flex-direction: column;
-    /* width: 100%; */
     align-items: center;
     justify-content: center;
   }
 
-  .premium-btn,
-  .cta-content-button {
-  }
-
-  /* Hide the circles on mobile to save performance and space */
-  .circle {
-    /* display: none; */
-  }
-
-  /* Optional: If cards are too messy, hide them or stack them below the image */
   .hero-img {
     margin-top: 1rem;
   }
 
   .hero-img-center img {
-    max-width: 80%; /* Shrink center image */
+    max-width: 80%; 
   }
 
-  /* Adjust cards for very small screens */
   .card-otp,
   .card-phone,
   .card-creditcard,
@@ -236,23 +211,5 @@
     position: absolute;
     scale: 0.7;
   }
-
-  /* Prevent cards from overlapping in the middle */
-  /* .card-otp {
-    top: -10%;
-    left: -5%;
-  }
-  .card-phone {
-    top: -10%;
-    right: -5%;
-  }
-  .card-creditcard {
-    bottom: -5%;
-    left: -5%;
-  }
-  .card-email {
-    bottom: -5%;
-    right: -5%;
-  } */
 }
 

@@ -43,7 +43,6 @@ button {
   cursor: pointer;
   font-family: inherit;
 }
-/* font - Aeonik */
 @font-face {
   font-family: "Aeonik";
   src: url("../fonts/AeonikTRIAL-Regular.otf") format("opentype");
@@ -195,15 +194,13 @@ body {
   pointer-events: none;
   z-index: -1;
 }
-
 .circle {
   z-index: 0;
   position: absolute;
-  border: 1px solid rgba(202, 198, 221, 0.1); 
+  border: 1px solid rgba(202, 198, 221, 0.1);
   border-radius: 50%;
   width: var(--size);
   height: var(--size);
-
   top: 57%; 
   left: 50%;
   transform: translate(-50%, -50%);
@@ -319,15 +316,12 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1.2rem;
 }
-
-
 .navbar-brand,
 .navbar-logo {
   width: var(--logo-width);
   height: var(--logo-height);
   cursor: pointer;
 }
-
 .navbar-menu {
   flex: 1;
   display: flex;
@@ -440,7 +434,6 @@ header {
   width: 100%;
   padding: clamp(2rem, 8vw, 14.9rem);
   background: url("../assets/grind-2.png") center/cover no-repeat;
-  
   --circle-1: clamp(12rem, 28vw, 22rem);
   --circle-2: clamp(24rem, 42vw, 34.4rem);
   --circle-3: clamp(38rem, 60vw, 49rem);
@@ -450,12 +443,10 @@ header {
 .cta-container {
   height: 100%;
   display: flex;
-
   align-items: center;
   justify-content: center;
 }
 .cta-content {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -463,9 +454,7 @@ header {
   text-align: center;
   width: 100%;
   max-width: 69.1rem;
- 
 }
-
 .cta-content-heading {
   font-family: var(--font-sora);
   font-weight: 600;
@@ -501,7 +490,6 @@ header {
 
 
 .cta-content-button {
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -510,11 +498,7 @@ header {
   border-radius: 1.2rem;
   cursor: pointer;
   text-decoration: none;
-
- 
   background: linear-gradient(87.43deg, #090edb 8.8%, #da24bb 84.38%);
-
- 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid transparent;
@@ -527,8 +511,6 @@ header {
       rgba(255, 225, 225, 0.3) 2.55%,
       rgba(255, 255, 255, 0.114) 114.27%
     );
-
-  
   color: #fff;
   font-family: var(--font-aeonik);
   font-weight: 500;
