@@ -5,6 +5,21 @@
 @import "./review.css";
 @import "./footer.css";
 
+@font-face {
+  font-family: "Aeonik";
+  src: url("/fonts/fonnts.com-Aeonik-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --bg-color: #0e0c15;
@@ -43,21 +58,7 @@ button {
   cursor: pointer;
   font-family: inherit;
 }
-@font-face {
-  font-family: "Aeonik";
-  src: url("../fonts/AeonikTRIAL-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 
-@font-face {
-  font-family: "Aeonik";
-  src: url("../fonts/Aeonik Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
 
 body {
   width: 100%;
