@@ -75,8 +75,9 @@
   padding-top: 20px;
   font-family: var(--font-aeonik);
   font-size: 2rem;
+  font-weight: 400;
   line-height: 1.4;
-  color: #cac6dd;
+  color: #CAC6DD;
   border-bottom: 1px solid #FFFFFF1A;
 }
 
