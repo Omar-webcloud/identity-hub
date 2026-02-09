@@ -50,3 +50,26 @@
   flex-direction: column;
   gap: 2.4rem;
 }
+.pricing-card-feature{
+    position: relative;
+  padding-left: clamp(3.2rem, 4vw, 4.4rem);
+
+  font-family: var(--font-aeonik);
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #cac6dd;
+}
+
+.pricing-card-feature::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 2.8rem;
+  height: 2.8rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../assets/feature-check-purple-icon.svg");
+  
+}
