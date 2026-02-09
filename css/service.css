@@ -67,6 +67,10 @@
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
+.service-card:hover{
+  transform: scale(1.05);
+  transition: ease-in-out 0.5s ;
+}
 .service-card::after {
   z-index: -1;
   content: "";
@@ -147,6 +151,8 @@
 
 .service-card-link:hover {
   opacity: 0.8;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s
 }
 
 

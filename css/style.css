@@ -138,7 +138,8 @@ body {
 
 
 .premium-btn:hover {
-  color: #e0e7ff;
+  color: #c0c9e9;
+  transition: ease-in 0.5s;
 }
 
 .premium-btn:hover::after {
