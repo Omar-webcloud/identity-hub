@@ -78,6 +78,8 @@
     #0c0a14 53%,
     #000000 100%
   );
+  border-radius: 23px;
+    border-top-right-radius: 100px;
 }
 .service-card::before {
   z-index: 10;
