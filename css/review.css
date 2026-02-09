@@ -90,15 +90,21 @@
 
 .dots .active::before{
   content: "";
-  width: 24px;
-  height: 24px;
-  display: block;
-  border-radius: 50%;
-  border: 1px solid;
+width: 24px;
+height: 24px;
+display: block;
+border-radius: 50%;
+background: linear-gradient(
+  87.95deg,
+  #090EDB -15.78%,
+  #E73DC4 102.06%
+);
+-webkit-mask: 
+  radial-gradient(circle, transparent 62%, #000 63%);
+mask: 
+  radial-gradient(circle, transparent 62%, #000 63%);
+transform: translate(-9px, -8px);
+pointer-events: none;
 
-border-image: linear-gradient(87.95deg, #090EDB -15.78%, #E73DC4 102.06%) 1;
-
-
-  transform: translate(-9px, -8px);
   
 }
