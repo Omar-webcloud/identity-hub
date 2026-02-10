@@ -232,6 +232,12 @@ body {
   align-items: center;
   z-index: 0;
 }
+ 
+  @media (max-width: 576px) {
+    .pricing .space-container {
+      --gradient-size: clamp(12vmin, 18vmin, 28vmin);
+    }
+  }
 .space-container::before {
   content: "";
   position: absolute;
