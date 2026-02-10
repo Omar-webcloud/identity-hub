@@ -56,3 +56,23 @@ font-size: 12px;
     align-items: center;
     gap: 32px;
 }
+
+
+
+
+@media (max-width:850px) {
+    .footer-top{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:610px) {
+    .footer-bottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-nav-link{
+        padding: 10px;
+    }
+}
