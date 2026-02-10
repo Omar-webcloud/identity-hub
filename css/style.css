@@ -235,8 +235,17 @@ body {
  
   @media (max-width: 576px) {
     .pricing .space-container {
-      --gradient-size: clamp(12vmin, 18vmin, 28vmin);
+      --gradient-size: clamp(15vmin, 68vmin, 68vmin);
     }
+  }
+  @media (max-width: 576px) {
+    .cta .space-container::before {
+      --gradient-size: clamp(15vmin, 68vmin, 68vmin);
+    }
+    .cta-content-stroke img{
+      max-width: 100%;
+    }
+    
   }
 .space-container::before {
   content: "";
