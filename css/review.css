@@ -285,9 +285,8 @@
   left: 40%;
   top: 50%;
   transform: translate(-50%, -50%);
-  /* inset: -2%; */
+  
   border-radius: 50%;
-  /* border: 1.5px solid transparent; */
   padding: 1px;
   background: linear-gradient(87.95deg, #090edb -15.78%, #e73dc4 102.06%);
   -webkit-mask:
