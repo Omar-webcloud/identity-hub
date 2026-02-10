@@ -73,6 +73,11 @@
   border-radius: 3.2rem;
 }
 
+.pricing-card:hover{
+    transform: scale(1.02);
+    transition: ease-in-out 0.5s;
+}
+
 .pricing-card--featured {
   transform: scale(1.05);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
