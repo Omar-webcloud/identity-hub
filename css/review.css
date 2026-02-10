@@ -17,6 +17,8 @@
   padding-bottom: 4rem;
   gap: 0.8rem;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .testimonials-wrapper {
