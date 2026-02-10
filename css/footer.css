@@ -56,6 +56,10 @@ font-size: 12px;
     align-items: center;
     gap: 32px;
 }
+.footer-social-link img:hover{
+    transform: scale(1.04);
+    transition: ease-in-out 0.3s;
+}
 
 
 
