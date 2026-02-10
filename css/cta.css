@@ -64,5 +64,8 @@ width: 100%;
    .cta-content-subheading{
     font-size: 16px;
    }
+   .cta-content{
+    padding: 20px 26px;
+   }
     
 }
