@@ -55,3 +55,14 @@ width: 100%;
     max-width: 690px;
     width: 100%;
 }
+
+
+@media (max-width:768px) {
+   .cta-content-heading{
+    font-size: 32px;
+   }
+   .cta-content-subheading{
+    font-size: 16px;
+   }
+    
+}
