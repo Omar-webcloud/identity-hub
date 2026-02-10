@@ -133,7 +133,7 @@
   }
 }
 
-/* card 2 - visual part  */
+
 .feature-card-grid {
   display: grid;
   grid-template-columns: repeat(2, 24.2rem);
@@ -245,11 +245,11 @@
   }
 }
 
-/* card -2  */
+
 @media (max-width: 1100px) {
   .feature-card-grid {
     align-content: center;
-    /* grid-template-columns: repeat(2, 20.2rem); */
+    
   }
 }
 
@@ -287,20 +287,5 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
-/* .contact-item {
-    align-self: center;
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-    background: linear-gradient(
-      137.34deg,
-      rgba(27, 28, 54, 0.16) 23.98%,
-      rgba(112, 113, 122, 0.16) 65.73%
-    );
-    backdrop-filter: blur(11.7px);
-    -webkit-backdrop-filter: blur(11.7px);
 
-    border-radius: 2rem;
-  } */
 
