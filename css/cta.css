@@ -1,0 +1,54 @@
+
+
+.cta {
+  width: 100%;
+  padding: clamp(2rem, 8vw, 14.9rem);
+  background: url("../assets/noise-2.png") center/cover no-repeat;
+  
+  --circle-1: clamp(12rem, 28vw, 22rem);
+  --circle-2: clamp(24rem, 42vw, 34.4rem);
+  --circle-3: clamp(38rem, 60vw, 49rem);
+  --circle-4: clamp(52rem, 76vw, 62.8rem);
+  --circle-5: clamp(64rem, 90vw, 74.4rem);
+  
+}
+.cta-container{
+    margin-top: 100px;
+    
+}
+.cta-content{
+   padding: 220px 26px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.cta-content-accent-wrapper{
+    margin-bottom: 24px;
+}
+.cta-content-heading{
+font-family: var(--font-sora);
+font-weight: 600;
+font-size: 60px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+max-width: 690px;
+width: 100%;
+
+}
+.cta-content-stroke{
+    display: flex;
+    justify-content: space-around;
+}
+.cta-content-subheading{
+    margin-bottom: 32px;
+    font-family: var(--font-sora);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #CAC6DD;
+    max-width: 690px;
+    width: 100%;
+}
