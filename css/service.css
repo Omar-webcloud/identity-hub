@@ -52,61 +52,61 @@
   z-index: 200;
   position: relative;
   max-width: 42.4rem;
-  padding: 3.2rem;
+  padding: 2px; 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2.4rem;
+  clip-path: polygon(0% 0%, 85% 0%, 100% 15%, 100% 100%, 0% 100%);
   border-radius: 2.4rem;
-  border-top-right-radius: 25%;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.05) 0%,
-    rgba(255, 255, 255, 0.01) 100%
-  );
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-}
-.service-card:hover{
-  transform: scale(1.03);
-  transition: ease-in-out 0.5s ;
-}
-.service-card::after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:radial-gradient(
-  circle at center,
-  #2e1e68 0%,
-  #22164d 20%,
-  rgba(24, 16, 53, 0.6) 35%,
-  #141025 60%,
-  #0a0b11 100%
-);
-  border-radius: 23px;
-    border-top-right-radius: 100px;
-}
-.service-card::before {
-  z-index: 10;
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  border-top-right-radius: 25%;
-  padding: 2px;
+  border-top-right-radius: 20%;
+  
   background: linear-gradient(
     87.95deg,
     rgba(9, 14, 219, 0.66) -15.78%,
     rgba(231, 61, 196, 0.66) 102.06%
   );
+  
+  transition: transform 0.5s ease-in-out;
+}
 
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
+
+
+.service-card::after {
+  content: "";
+  position: absolute;
+ 
+  inset: 2px; 
+  z-index: -1;
+
+  clip-path: inherit;
+  border-radius: inherit;
+  
+  background: linear-gradient(
+    135deg,
+    rgba(36, 27, 85, 0.05) 0%,
+    rgba(255, 255, 255, 0.01) 100%
+  ), 
+  radial-gradient(
+    circle at center,
+    #624eaa 0%,
+    #32198b 20%,
+    rgba(24, 16, 53, 0.6) 35%,
+    #090320 60%,
+    #0a0b11 100%
+  );
+  
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+
+.service-card {
+  padding: 3.4rem; 
+}
+
+.service-card:hover {
+  transform: scale(1.03);
 }
 
 .service-card-icon-wrapper {

@@ -1,10 +1,7 @@
 ﻿
 .hero {
-  --hero-gradient: linear-gradient(
-    180deg,
-    rgb(243, 60, 192) 13.43%,
-    rgb(67, 73, 255) 73.37%
-  );
+  --hero-gradient: linear-gradient(180deg, #F33CC0 13.43%, #4349FF 53.37%);
+;
   --circle-1: clamp(22rem, 28vw, 37rem);
   --circle-2: clamp(34rem, 42vw, 57.8rem);
   --circle-3: clamp(48rem, 60vw, 82.2rem);
