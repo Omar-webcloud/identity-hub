@@ -213,8 +213,8 @@ body {
 }
 .grain-container{
    background: url("../assets/noise-2.png") center/cover repeat;
-   z-index: -1;        
-   pointer-events: none;
+   /* z-index: -1;        
+   pointer-events: none; */
    
 }
 .border-1 {
