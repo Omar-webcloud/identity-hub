@@ -6,8 +6,12 @@ A modern, lightweight identity management hub — a web-based interface for hand
 This project provides a clean and customizable UI to manage identity flows and serves as a foundation for building secure authentication experiences.
 
 
+## Live Link 
 
-## 📦 Technologies
+ ->  https://omar-webcloud.github.io/identity-hub/
+
+
+##  Technologies
 
 The project is built using:
 
@@ -15,7 +19,7 @@ The project is built using:
 - **CSS** — Custom styling and responsive layout
 - **JavaScript** — Client-side interactions and dynamic behavior
 
-## 📁 Repository Structure
+##  Repository Structure
 
 The core files include:
 
