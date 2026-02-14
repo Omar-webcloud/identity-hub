@@ -1,6 +1,6 @@
 ﻿
 .features {
-  margin: clamp(3rem, 10vw, 10rem) 0;
+  padding: clamp(3rem, 10vw, 10rem) 0;
   background: url("../assets/noise-2.png") no-repeat center / cover;
 }
 .feature-cards {

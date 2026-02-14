@@ -12,7 +12,7 @@
   --circle-5: clamp(74rem, 90vw, 124.8rem);
 
   min-height: 100vh;
-  background: url("../assets/noise-2.png") no-repeat center / cover;
+  background: url("../assets/noise-2.png") repeat center / cover;
 }
 
 .hero-overlay {

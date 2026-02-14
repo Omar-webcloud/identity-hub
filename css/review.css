@@ -1,13 +1,12 @@
 ﻿
 
 .testimonials {
-  margin: clamp(3rem, 10vw, 10rem) 0;
+  padding: clamp(3rem, 10vw, 10rem) 0;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("../assets/noise-2.png");
 }
 .testimonials-content {
   display: flex;
