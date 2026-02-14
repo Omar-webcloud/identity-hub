@@ -301,6 +301,11 @@ body {
 .circle--5 {
   --size: var(--circle-5);
 }
+
+.hero .circle--5,
+.cta .circle--5 {
+  opacity: 0.5;
+}
 @media (max-width: 768px) {
   .circle {
     border-color: rgba(202, 198, 221, 0.07);
