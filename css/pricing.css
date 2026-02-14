@@ -61,14 +61,14 @@
 
 .pricing-card {
   width: 100%;
-  max-width: 38rem;
+  max-width: 41rem;
   padding: clamp(2rem, 4vw, 4rem);
   height: auto;
 
   display: flex;
   flex-direction: column;
   background: transparent;
-  
+  max-height: 660px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 3.2rem;
 }
@@ -81,6 +81,7 @@
 .pricing-card--featured {
   transform: scale(1.05);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  height: 760px;
 }
 
 .pricing-card-title {
