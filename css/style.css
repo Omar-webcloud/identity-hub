@@ -79,6 +79,8 @@ body {
 }
 
 
+/* reuse */
+
 .arrow-right {
   width: 1.6rem;
   height: 1.6rem;
@@ -222,7 +224,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* reuse */
+
 .space-container {
   --gradient-size: clamp(30vmax, 63vmax, 100vmax);
   position: relative;
