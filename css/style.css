@@ -199,9 +199,9 @@ body {
   width: 100%;
   max-width: 132rem;
   margin-inline: auto;
-  position: relative;
+  
 }
-.container::before {
+/* .container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -210,9 +210,9 @@ body {
   height: 100%;
   
    
-}
+} */
 .grain-container{
-   background: url("../assets/noise-2.png") center/cover repeat;
+   background: url("../assets/background.png") center/contain repeat;
    /* z-index: -1;        
    pointer-events: none; */
    
@@ -370,7 +370,7 @@ body {
 header {
   position: relative;
   z-index: 100;
-   background: url(../assets/noise-2.png) repeat center / cover;
+   background: url(../assets/background.png) repeat center / contain;
 }
 
 
