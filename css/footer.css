@@ -6,7 +6,12 @@
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    
+}
+
+@media (max-width: 1400px) {
+  .footer-container {
+    padding-inline: 10px;
+  }
 }
 .footer-top{
     display: flex;
