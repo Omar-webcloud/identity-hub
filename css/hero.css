@@ -92,9 +92,9 @@
 .hero-title span::after {
   content: "";
   position: absolute;
-  left: 0;
+  left: -15px;
   bottom: -10px;
-  width: 100%;
+  width: 115%;
   height: 20px;
   background: url("../assets/hero-heading.svg") no-repeat center/ contain;
   pointer-events: none;
