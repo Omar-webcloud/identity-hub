@@ -319,7 +319,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 16.5px 7px 16.5px;
+  padding: 5px 15px 7px 15px;
   font-family: var(--font-aeonik);
   font-size: 1.4rem;
   line-height: 1;
