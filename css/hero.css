@@ -218,6 +218,8 @@
   top: 50%;
   left: 50%;
   animation: orbit 20s linear infinite;
+  width: 300px;
+  height: 300px;
 }
 
 .card-otp { animation-delay: 0s; }
