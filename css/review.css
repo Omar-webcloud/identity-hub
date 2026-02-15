@@ -242,6 +242,9 @@
   line-height: 1.4;
   margin: 0;
 }
+.swiper-pagination-bullet{
+  opacity: 1 !important;
+} 
 
 @media (max-width: 1400px) {
   .testimonial-text {
