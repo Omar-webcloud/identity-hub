@@ -16,10 +16,16 @@
 
 @font-face {
   font-family: "Aeonik";
-  src: url("../fonts/fonnts.com-Aeonik-Bold.ttf") format("truetype");
+  src: url("../fonts/Aeonik-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url(../fonts/fonnts.com-Aeonik-Bold.ttf)  format(truetype);
+  font-weight: 600;
 }
 
 :root {
@@ -185,7 +191,7 @@ body {
     );
   color: #fff;
   font-family: var(--font-aeonik);
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 1.6rem;
   line-height: 1;
   transition: opacity 0.2s ease;
