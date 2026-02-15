@@ -210,3 +210,63 @@
   }
 }
 
+.card-otp,
+.card-phone,
+.card-creditcard,
+.card-email {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: orbit 20s linear infinite;
+}
+
+.card-otp { animation-delay: 0s; }
+.card-phone { animation-delay: -5s; }
+.card-creditcard { animation-delay: -10s; }
+.card-email { animation-delay: -15s; }
+
+@keyframes orbit {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.contact-item--small {
+  transform: translateX(260px);
+  animation: counter 20s linear infinite;
+}
+
+.card-otp .contact-item--small { animation-delay: 0s; }
+.card-phone .contact-item--small { animation-delay: -5s; }
+.card-creditcard .contact-item--small { animation-delay: -10s; }
+.card-email .contact-item--small { animation-delay: -15s; }
+
+@keyframes counter {
+  from {
+    transform: translateX(260px) rotate(0deg);
+  }
+  to {
+    transform: translateX(260px) rotate(-360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .card-otp,
+  .card-phone,
+  .card-creditcard,
+  .card-email {
+    animation: none;
+  }
+  
+  .contact-item--small {
+    animation: none;
+    transform: translateX(260px);
+  }
+}
+
+.contact-item--small{
+  max-width: 220px;
+}
