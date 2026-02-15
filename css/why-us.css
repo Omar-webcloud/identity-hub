@@ -1,7 +1,7 @@
 ﻿
 .features {
   padding: clamp(3rem, 10vw, 10rem) 0;
-  background: url("../assets/background.png") center/contain repeat;
+  background: url("../assets/background3.png") center/contain repeat;
 }
 .feature-cards {
   display: flex;

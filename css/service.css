@@ -64,8 +64,7 @@
   background: linear-gradient(
     87.95deg,
     rgba(9, 14, 219, 0.66) -15.78%,
-    rgba(231, 61, 196, 0.66) 102.06%
-  );
+    rgb(139 38 181) 102.06%);
   
   transition: transform 0.5s ease-in-out;
 }
