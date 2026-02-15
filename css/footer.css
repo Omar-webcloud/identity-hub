@@ -91,3 +91,34 @@ font-size: 12px;
         padding: 10px;
     }
 }
+
+@media (max-width: 480px) {
+  footer {
+    padding: 0 16px;
+  }
+
+  .footer-socials {
+    gap: 16px;
+  }
+
+  .footer-nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  footer {
+    padding: 0 10px;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .footer-nav-link {
+    padding: 8px;
+    font-size: 11px;
+  }
+}

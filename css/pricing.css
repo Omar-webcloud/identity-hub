@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow-x: hidden;
   background: url("../assets/noise-2.png");
 }
 
@@ -271,5 +272,24 @@
   .pricing-card-feature {
     font-size: 1.6rem;
     padding: 1.5rem 0;
+  }
+
+  .pricing-card-description {
+    font-size: 1.6rem;
+  }
+
+  .pricing-card .cta-content-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .pricing-planet--sky,
+  .pricing-planet--organ-small {
+    display: none;
+  }
+
+  .pricing::after {
+    display: none;
   }
 }

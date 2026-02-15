@@ -24,7 +24,6 @@
 .content {
   width: 100%;
   max-width: 67.4rem;
-  max-height: 21.4rem;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -220,3 +219,16 @@
   }
 }
 
+@media (max-width: 480px) {
+  .service-card-title {
+    font-size: 2rem;
+  }
+
+  .service-card-description {
+    font-size: 1.6rem;
+  }
+
+  .service-card-link {
+    font-size: 1.6rem;
+  }
+}

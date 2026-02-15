@@ -245,45 +245,30 @@ body {
   --gradient-size: clamp(30vmax, 63vmax, 100vmax);
   position: relative;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  isolation: isolate;
   z-index: 0;
 }
- 
-  @media (max-width: 576px) {
-    .pricing .space-container {
-      --gradient-size: clamp(15vmin, 68vmin, 68vmin);
-    }
-  }
-  @media (max-width: 576px) {
-    .cta .space-container::before {
-      --gradient-size: clamp(15vmin, 68vmin, 68vmin);
-    }
-    .cta-content-stroke img{
-      max-width: 100%;
-    }
-    
-  }
+
 .space-container::before {
- content: "";
-    position: absolute;
-    top: 30%;
-    left: 37%;
-    width: 40%;
-    height: 550px;
-    background: linear-gradient(to top, #090edb 70%, #e73dc4 30%);;
-    filter: blur(100px);
-    opacity: 0.4;
-    z-index: 1;
-    mix-blend-mode: overlay;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 550px;
+  background: linear-gradient(to top, #090edb 70%, #e73dc4 30%);
+  filter: blur(100px);
+  opacity: 0.4;
+  z-index: -1;
+  mix-blend-mode: overlay;
+  pointer-events: none;
 }
+
 .cta .space-container::before {
-    width: 30%;
-    height: 400px;
-    left: 50%;
-    transform: translateX(-50%);
+  width: 20%;
+  height: 250px;
+  filter: blur(60px);
 }
 .circle {
   z-index: 0;
@@ -524,3 +509,47 @@ header {
   }
 }
 
+@media (max-width: 425px) {
+  .navbar-container {
+    padding: 0.8rem;
+    gap: 1rem;
+  }
+
+  .navbar-brand, .navbar-logo {
+    width: 14rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar-container {
+    padding: 0.6rem;
+    gap: 0.6rem;
+  }
+
+  .navbar-brand, .navbar-logo {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .space-container::before {
+    width: 90%;
+    height: 350px;
+    filter: blur(80px);
+  }
+
+  .pricing .space-container {
+    --gradient-size: clamp(15vmin, 68vmin, 68vmin);
+  }
+
+  .cta .space-container::before {
+    width: 50%;
+    height: 200px;
+    filter: blur(50px);
+  }
+
+  .cta-content-stroke img {
+    max-width: 100%;
+  }
+}

@@ -1,7 +1,6 @@
 ﻿
 .hero {
   --hero-gradient: linear-gradient(180deg, #F33CC0 13.43%, #4349FF 53.37%);
-;
   --circle-1: clamp(22rem, 28vw, 37rem);
   --circle-2: clamp(34rem, 42vw, 57.8rem);
   --circle-3: clamp(48rem, 60vw, 82.2rem);
@@ -9,6 +8,7 @@
   --circle-5: clamp(74rem, 90vw, 124.8rem);
 
   min-height: 100vh;
+  overflow: hidden;
   background: url("../assets/background1.png") center/contain repeat;
 }
 
@@ -16,6 +16,9 @@
   padding-top: 6.4rem;
   padding-bottom: 10rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .planet--green,
 .planet--sky,
@@ -50,7 +53,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
+  gap: clamp(2rem, 5vw, 5rem);
   max-width: 99.2rem;
   width: 100%;
   z-index: 100;
@@ -256,6 +259,14 @@
 }
 
 @media (max-width: 576px) {
+  .planet--green,
+  .planet--sky,
+  .planet--organ-small,
+  .planet--organ-big,
+  .planet--green-2 {
+    display: none;
+  }
+
   .card-otp,
   .card-phone,
   .card-creditcard,
@@ -295,6 +306,37 @@
   }
 }
 
-.contact-item--small{
+@media (max-width: 375px) {
+  .card-otp,
+  .card-phone,
+  .card-creditcard,
+  .card-email {
+    scale: 0.35;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-otp {
+    top: -5%;
+    left: -15%;
+  }
+
+  .card-phone {
+    top: -5%;
+    right: -15%;
+  }
+
+  .card-creditcard {
+    bottom: -5%;
+    left: -15%;
+  }
+
+  .card-email {
+    bottom: -5%;
+    right: -15%;
+  }
+}
+
+.contact-item--small {
   max-width: 220px;
 }

@@ -2,7 +2,7 @@
 
 .cta {
   width: 100%;
-  /* padding: clamp(2rem, 8vw, 14.9rem); */
+  /* overflow-x: hidden; */
   
   
   --circle-1: clamp(12rem, 28vw, 22rem);
@@ -67,6 +67,13 @@ width: 100%;
   .cta-content {
     padding: 20px 26px;
   }
+  .cta {
+    --circle-1: clamp(6rem, 16vw, 10rem);
+    --circle-2: clamp(10rem, 26vw, 18rem);
+    --circle-3: clamp(16rem, 38vw, 26rem);
+    --circle-4: clamp(22rem, 50vw, 34rem);
+    --circle-5: clamp(28rem, 62vw, 42rem);
+  }
 }
 
 @media (max-width: 480px) {
@@ -82,5 +89,23 @@ width: 100%;
   .cta-content-stroke img {
     width: 100%;
     height: auto;
+  }
+  .cta-container {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cta-content-heading {
+    font-size: 22px;
+  }
+
+  .cta-content {
+    padding: 15px 10px;
+  }
+
+  .cta-content-subheading {
+    font-size: 13px;
+    line-height: 1.4;
   }
 }

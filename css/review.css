@@ -346,3 +346,21 @@
   }
 }
 
+@media (max-width: 480px) {
+  .outer-container {
+    padding: 1rem;
+  }
+
+  .inner-container {
+    padding-bottom: 3rem;
+  }
+
+  #dotsContainer {
+    bottom: 5% !important;
+  }
+
+  .testimonial {
+    padding: 1rem;
+  }
+}
+
