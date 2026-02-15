@@ -57,15 +57,30 @@ width: 100%;
 }
 
 
-@media (max-width:768px) {
-   .cta-content-heading{
+@media (max-width: 768px) {
+  .cta-content-heading {
     font-size: 32px;
-   }
-   .cta-content-subheading{
+  }
+  .cta-content-subheading {
     font-size: 16px;
-   }
-   .cta-content{
+  }
+  .cta-content {
     padding: 20px 26px;
-   }
-    
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-content-heading {
+    font-size: 28px;
+  }
+  .cta-content-subheading {
+    font-size: 14px;
+  }
+  .cta-content {
+    padding: 20px 16px;
+  }
+  .cta-content-stroke img {
+    width: 100%;
+    height: auto;
+  }
 }

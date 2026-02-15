@@ -266,27 +266,27 @@
     top: auto;
     left: auto;
     transform: translate(0, 0) !important;
-    scale: 0.65;
+    scale: 0.45;
   }
 
   .card-otp {
-    top: 5%;
-    left: 5%;
+    top: 0;
+    left: 0;
   }
 
   .card-phone {
-    top: 5%;
-    right: 5%;
+    top: 0;
+    right: 0;
   }
 
   .card-creditcard {
-    bottom: 5%;
-    left: 5%;
+    bottom: 0;
+    left: 0;
   }
 
   .card-email {
-    bottom: 5%;
-    right: 5%;
+    bottom: 0;
+    right: 0;
   }
 
   .contact-item--small {
