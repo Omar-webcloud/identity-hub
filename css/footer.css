@@ -1,4 +1,7 @@
-﻿.footer-container{
+﻿footer{
+    padding: 0 32px;
+}
+.footer-container{
     max-width: 1840px;
     display: flex;
     gap: 24px;
@@ -7,6 +10,7 @@
     width: 100%;
     margin: 0 auto;
     background: url(../assets/background3.png) repeat center / cover;
+    
 }
 
 @media (max-width: 1400px) {

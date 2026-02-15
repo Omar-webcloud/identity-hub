@@ -132,11 +132,11 @@
 }
 
 .btn-left {
-  left: 1rem;
+  left: -2rem;
 }
 
 .btn-right {
-  right: 1rem;
+  right: -2rem;
 }
 
 .nav-btn {
