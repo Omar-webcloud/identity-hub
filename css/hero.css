@@ -255,15 +255,44 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .card-otp,
   .card-phone,
   .card-creditcard,
   .card-email {
-    font-size: 10px;
+    animation: none;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+    transform: translate(0, 0) !important;
+    scale: 0.65;
   }
-  
- 
+
+  .card-otp {
+    top: 5%;
+    left: 5%;
+  }
+
+  .card-phone {
+    top: 5%;
+    right: 5%;
+  }
+
+  .card-creditcard {
+    bottom: 5%;
+    left: 5%;
+  }
+
+  .card-email {
+    bottom: 5%;
+    right: 5%;
+  }
+
+  .contact-item--small {
+    animation: none;
+    transform: translateX(0) !important;
+  }
 }
 
 .contact-item--small{

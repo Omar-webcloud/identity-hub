@@ -48,11 +48,8 @@
   );
 }
 
-@media (max-width: 1400px) {
-  .outer-container {
-    margin: 0 40px;
-  }
-}
+
+
 
 .outer-container::before {
   content: "";
