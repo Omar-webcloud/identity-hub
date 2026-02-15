@@ -235,6 +235,34 @@
   }
 }
 
+@media (max-width: 768px) {
+  .features {
+    padding: 3rem 0;
+  }
+
+  .feature-cards {
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .feature-card {
+    padding: 1.6rem;
+  }
+
+  .feature-card-content {
+    gap: 2rem;
+  }
+
+  .feature-content-description {
+    gap: 1.6rem;
+  }
+
+  .feature-card-list-item {
+    font-size: 1.6rem;
+    padding-left: 3rem;
+  }
+}
+
 @media (max-width: 700px) {
   .feature-card-content {
     flex-direction: column-reverse;
