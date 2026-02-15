@@ -258,13 +258,10 @@
   .card-phone,
   .card-creditcard,
   .card-email {
-    animation: none;
+    font-size: 10px;
   }
   
-  .contact-item--small {
-    animation: none;
-    transform: translateX(260px);
-  }
+ 
 }
 
 .contact-item--small{
