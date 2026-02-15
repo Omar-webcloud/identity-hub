@@ -2,7 +2,7 @@
 
 .cta {
   width: 100%;
-  padding: clamp(2rem, 8vw, 14.9rem);
+  /* padding: clamp(2rem, 8vw, 14.9rem); */
   
   
   --circle-1: clamp(12rem, 28vw, 22rem);
