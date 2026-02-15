@@ -138,7 +138,7 @@
 
 .feature-card-grid {
   display: grid;
-  grid-template-columns: repeat(2, 24.2rem);
+  grid-template-columns: repeat(2, minmax(0, 24.2rem));
   align-content: center;
   gap: 1.6rem 2rem;
   align-items: center;

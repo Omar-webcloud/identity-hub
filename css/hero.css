@@ -122,7 +122,7 @@
   align-items: center;
 }
 .hero-img-center img {
-  max-width: 484.4px;
+  max-width: clamp(200px, 80vw, 484.4px);
   aspect-ratio: 1/1;
   height: auto;
   object-fit: contain;

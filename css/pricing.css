@@ -61,7 +61,7 @@
 }
 
 .pricing-card {
-  width: 410px;
+  width: clamp(28rem, 90vw, 410px);
   max-width: 100%;
   padding: clamp(2rem, 4vw, 4rem);
 
@@ -69,7 +69,8 @@
   display: flex;
   flex-direction: column;
   background: linear-gradient(80.42deg, #00000029 25.25%, #53546c29 98.05%);
-  height: 660px;
+  height: auto;
+  min-height: 660px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 3.2rem;
 
@@ -83,8 +84,9 @@
 .pricing-card--featured {
   /* transform: scale(1.05); */
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  height: 760px;
-  max-height: 760px;
+  height: auto;
+  min-height: 760px;
+  max-height: none;
   overflow: hidden;
 }
 
@@ -190,7 +192,7 @@
 
 
 .pricing-card .cta-content-button{
-  width: 345px;
+  width: 100%;
   height: 48px;
   margin-bottom: 20px;
 }
@@ -274,12 +276,20 @@
     padding: 1.5rem 0;
   }
 
+  .pricing-card .cta-content-button {
+    width: 100%;
+  }
+
   .pricing-card-description {
     font-size: 1.6rem;
   }
 
-  .pricing-card .cta-content-button {
-    width: 100%;
+  .pricing-card-currency {
+    font-size: 2.4rem;
+  }
+
+  .pricing-card-feature {
+    font-size: 1.4rem;
   }
 }
 
