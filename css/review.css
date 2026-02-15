@@ -50,7 +50,7 @@
 
 @media (max-width: 1400px) {
   .outer-container {
-    padding-inline: 10px;
+    margin: 0 40px;
   }
 }
 
@@ -334,7 +334,7 @@
 
   .author-meta,
   .testimonial-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .card-content {
