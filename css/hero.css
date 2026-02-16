@@ -122,7 +122,7 @@
   align-items: center;
 }
 .hero-img-center img {
-  max-width: clamp(200px, 80vw, 484.4px);
+  max-width: clamp(150px, 65vw, 380px);
   aspect-ratio: 1/1;
   height: auto;
   object-fit: contain;
@@ -134,20 +134,20 @@
   position: absolute;
 }
 .card-otp {
-  top: 5%;
+  top: 40%;
   left: 8%;
 }
 .card-phone {
-  top: 5%;
+  top: 40%;
   right: 8%;
 }
 .card-creditcard {
-  bottom: 5%;
+  bottom: 15%;
   left: 8%;
 }
 
 .card-email {
-  bottom: 5%;
+  bottom: 15%;
   right: 8%;
 }
 
@@ -221,8 +221,8 @@
   top: 50%;
   left: 50%;
   animation: orbit 20s linear infinite;
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 64px;
 }
 
 .card-otp { animation-delay: 0s; }
@@ -240,7 +240,7 @@
 }
 
 .contact-item--small {
-  transform: translateX(260px);
+  transform: translateX(200px);
   animation: counter 20s linear infinite;
 }
 
@@ -251,10 +251,10 @@
 
 @keyframes counter {
   from {
-    transform: translateX(260px) rotate(0deg);
+    transform: translateX(200px) rotate(0deg);
   }
   to {
-    transform: translateX(260px) rotate(-360deg);
+    transform: translateX(200px) rotate(-360deg);
   }
 }
 
@@ -267,6 +267,10 @@
     display: none;
   }
 
+  .hero-img-center img {
+    scale: 0.85;
+  }
+
   .card-otp,
   .card-phone,
   .card-creditcard,
@@ -277,7 +281,7 @@
     top: auto;
     left: auto;
     transform: translate(0, 0) !important;
-    scale: 0.45;
+    scale: 0.55;
   }
 
   .card-otp {
