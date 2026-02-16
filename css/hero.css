@@ -30,11 +30,11 @@
 
 .planet--green {
   top: 50%;
-  left: 0;
+  left: 2%;
 }
 .planet--sky {
   top: 40%;
-  left: 20%;
+  left: 20.6%;
 }
 .planet--organ-small {
   top: 0;
@@ -46,7 +46,7 @@
 }
 .planet--green-2 {
   top: 35%;
-  right: 0;
+  right: 4%;
 }
 
 .hero-content {
