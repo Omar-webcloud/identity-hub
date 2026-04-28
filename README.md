@@ -1,9 +1,8 @@
 
 # Identity Hub
 
-A modern, lightweight identity management hub — a web-based interface for handling authentication workflows, user sessions, and identity-related utilities.
+A lightweight identity management hub — a web-based interface for identity-related utilities.
 
-This project provides a clean and customizable UI to manage identity flows and serves as a foundation for building secure authentication experiences.
 
 
 ## Live Link 
