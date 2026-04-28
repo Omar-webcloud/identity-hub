@@ -51,18 +51,7 @@ index.html
 
 in any modern web browser.
 
-### Optional: Serve with a Simple HTTP Server
 
-For a smoother development experience (live reload, API proxying, etc.) you can use a local server:
-
-**Using Node**
-
-```bash
-npm install -g http-server
-http-server .
-```
-
-Then open `http://localhost:8080` (or the port shown).
 
 ##  Customization
 
